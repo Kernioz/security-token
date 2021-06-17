@@ -11,7 +11,7 @@ end
 function checkToken(id, token)
     if not haveToken(id) then
         if id ~= nil or id ~= "" then
-            webhookSecurity.sendMessage("Anti Trigger Realistic 🔒", "Le joueur **" .. GetPlayerName(id) .. "** a essayé d'utilisé un trigger (sans token)", 3066993)
+            webhookSecurity.sendMessage("Anti Trigger" .. Config.serverName .. " 🔒", "Le joueur **" .. GetPlayerName(id) .. "** a essayé d'utilisé un trigger (sans token)", 3066993)
         end
         DropPlayer(id, Config.serverName .. " 🔒 Merci de venir en NEED Help pour régler le soucis ! ")
         return false
