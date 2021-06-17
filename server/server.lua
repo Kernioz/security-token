@@ -1,5 +1,5 @@
 playerToken = {}
-local webhookSecurity = createWebhook("https://discord.com/api/webhooks/842796604724478013/Jroj5eCW0k0rKStZXubiQHLxLtgWtaqTLZj9S5D-7YHO59ny7sTWSNu-t2cwXe2ERdQS")
+local webhookSecurity = createWebhook(Config.webhook)
 
 function haveToken(id) 
     if playerToken[id] ~= nil then 
