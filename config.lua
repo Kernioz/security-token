@@ -1,0 +1,4 @@
+Config = {
+    webhook = "",
+    serverName = "Zebi"
+}
