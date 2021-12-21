@@ -1,5 +1,3 @@
-# kPain
-
-
-Yosh, je n'apporterais pas d'aide vis à vis du système de token, puisqu'il a été leak dans la base de Realistic, 
-Mettez vous bien
+# security-token
+Security-Token is a system that allows you to secure your events via a token generated per player. No support provided
+(I'd like to thank Realistic for leaking the Token system)
